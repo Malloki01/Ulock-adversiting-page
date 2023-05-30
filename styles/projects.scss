@@ -21,7 +21,7 @@
       margin-bottom: 3rem;
 
       .project__work__img {
-        background-color: var(--darkDialogColor);
+        background-color: var(--greenLogo);
         min-width: 20rem;
         width: 25rem;
         height: 12rem;
@@ -38,7 +38,7 @@
         justify-content: flex-start;
 
         .project__work__title {
-          color: var(--whiteColor);
+          color: var(--grayParagraph);
         }
 
         .project__work__desc {
@@ -66,7 +66,7 @@
             span {
               width: 1rem;
               height: 1rem;
-              color: var(--accentColor);
+              color: var(--greenLogo);
               margin-right: 0.5rem;
             }
           }

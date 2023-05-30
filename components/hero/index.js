@@ -1,6 +1,6 @@
 import { AppWrap, MotionWrap } from "../wrapper";
 
-const FavTools = ["/next.png", "/python.png", "/react.png", "/cpp.png"];
+const FavTools = ["/next.png", "/python.png", "/react.png", "/visual.png"];
 
 const Hero = () => {
   return (

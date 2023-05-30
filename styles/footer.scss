@@ -9,6 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    color: var(--darkBgColor);
 
     svg {
       width: 1.5srem;
@@ -40,11 +41,11 @@
 
       a {
         text-decoration: none;
-        color: var(--whiteColor);
+        color: var(--darkBgColor);
         margin-left: 1rem;
 
         &:hover {
-          color: var(--grayColor);
+          color: var(--greenLogo);
         }
       }
     }
@@ -64,7 +65,7 @@
       margin-top: 1rem;
 
       a {
-        color: var(--whiteColor);
+        color: var(--darkBgColor);
         margin: 0 1rem;
         font-size: 2rem;
         text-decoration: none;
@@ -72,8 +73,10 @@
 
         &:hover {
           transform: scale(1.2);
+          color: var(--greenLogo);
         }
       }
     }
   }
 }
+

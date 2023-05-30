@@ -12,6 +12,11 @@
   --darkPrimaryTextColor: rgb(182, 182, 182);
   --accentColor: #ff5a5f;
   --lightAccentColor: #e7696d;
+
+  --grayParagraph: #2a2a2a;
+  --greenLogo: #014F23;
+  --graySpan: #2b2929;
+
 }
 
 * {
@@ -35,7 +40,7 @@ body {
   // background-color: var(--darkBgColor);
   background-color: white;
   // color: var(--darkPrimaryTextColor);
-  color: #666666;
+  color: #2a2a2a;
   font-family: var(--font-base);
 }
 
@@ -67,7 +72,7 @@ p {
   font-size: 1.15rem;
   font-weight: 400;
   // color: var(--darkPrimaryTextColor);
-  color: #454545;
+  color: var(--grayParagraph);
   line-height: 1.5;
 
   @media screen and (min-width: 1600px) {
@@ -82,7 +87,7 @@ p {
 h2 {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--darkPrimaryTextColor);
+  color: var(--darkBgColor);
   line-height: 1.5;
 
   @media screen and (min-width: 1600px) {
@@ -97,7 +102,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--darkPrimaryTextColor);
+  color: var(--darkBgColor);
   line-height: 1.5;
 
   @media screen and (min-width: 1600px) {
@@ -136,8 +141,8 @@ h3 {
   text-decoration: none;
   outline: none;
   background-color: transparent;
-  color: var(--accentColor);
-  border: 2px solid var(--accentColor);
+  color: var(--greenLogo);
+  border: 2px solid var(--greenLogo);
   border-radius: 2rem;
   padding: 0.5rem 1.5rem;
   font-size: 1.1rem;
@@ -151,7 +156,7 @@ h3 {
   }
 
   &:hover {
-    background-color: var(--accentColor);
+    background-color: var(--greenLogo);
     color: var(--whiteColor);
   }
 
@@ -173,7 +178,7 @@ h3 {
   text-decoration: none;
   outline: none;
   background-color: transparent;
-  color: var(--accentColor);
+  color: var(--greenLogo);
   border: none;
   font-size: 1.1rem;
   text-transform: capitalize;
@@ -186,7 +191,8 @@ h3 {
   }
 
   &:hover {
-    color: var(--whiteColor);
+    // color: var(--whiteColor);
+    transform: scale(1.1);
   }
 
   @media screen and (min-width: 1600px) {

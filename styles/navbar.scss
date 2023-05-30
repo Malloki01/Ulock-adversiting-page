@@ -67,9 +67,9 @@
       transition: border-bottom 0.1s ease-in-out;
     }
 
-    &:hover {
-      border-bottom: 2px solid var(--darkPrimaryTextColor);
-    }
+    // &:hover {
+    //   border-bottom: 2px solid var(--darkPrimaryTextColor);
+    // }
   }
 
   .active {
@@ -77,8 +77,8 @@
     //   // color: var(--whiteColor);
     //   // color: #01833a;
     // }
-    // border-bottom: 2px solid var(--whiteColor);
-    border-bottom: 2px solid #01833a;
+    border-bottom: 2px solid var(--greenLogo);
+    // border-bottom: 2px solid var(--greenLogo:);
 
   }
 
