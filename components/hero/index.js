@@ -1,4 +1,5 @@
 import { AppWrap, MotionWrap } from "../wrapper";
+import Image from "next/image";
 
 const FavTools = ["/next.png", "/python.png", "/react.png", "/visual.png"];
 
@@ -21,21 +22,21 @@ const Hero = () => {
         <a className="o">o</a>
       </div>
 
-      <div className="sub-text">"There are no limits to the imagination"</div>
+      <div className="sub-text">&quot;There are no limits to the imagination&quot;</div>
 
       <div className="detail-text">
         <p>
-          I am a <span>Systems Engineer</span> I am a Systems Engineer, I love
-          programming. The languages I currently use the most are{" "}
+          I am a <span>Systems Engineer</span>. I love programming. The languages I currently use the most are{" "}
           <span>Javascript</span> and <span>Python</span>.
         </p>
         <br />
         <p>
-          I am currently working developing applications with Next.js at{" "}
+          I am currently working on developing applications with Next.js at{" "}
           <span className="company">
             <a
               href="https://thecollectiveintelligencegroup.com/"
               target="_blank"
+              rel="noopener noreferrer"
               className="company"
             >
               Collective Intelligence Group
@@ -44,12 +45,11 @@ const Hero = () => {
         </p>
       </div>
 
-
       <div className="fav__techs">
         {FavTools.map((tool, index) => {
           return (
             <div className="fav__tech" key={index}>
-              <img src={tool} alt="tool" />
+              <Image src={tool} alt="tool" width={1080} height={1080} />
             </div>
           );
         })}

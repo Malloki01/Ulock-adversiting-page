@@ -8,7 +8,7 @@ export default function Home() {
         <title>Jorge Huergo</title>
         <meta name="description" content="Nikhil Rajput's portfolio developed using Next.js." />
         <meta name="keywords" content="system engineer, next js" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/huergo.ico" />
       </Head>
       <Hero />
       <About />

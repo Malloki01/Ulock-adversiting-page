@@ -3,6 +3,8 @@ import { HiX } from 'react-icons/hi';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { useState, useEffect } from 'react';
 import usePath from "../../hooks/usePath";
+import Image from 'next/image';
+
 
 const menuItems = ['home', 'about', 'projects', 'experiences', 'contact'];
 
@@ -28,7 +30,11 @@ const Navbar = () => {
     <nav className={scolled ? 'app__navbar scrolled' : 'app__navbar'}>
 
       <a href='#home' className='app__navbar-logo'>
-        <img src="./huergocode_transparent.png" alt="" />
+        <Image src="/huergocode_transparent.png"
+                      alt="profile"
+                      width={80}
+                      height={80}
+                />
       </a>
 
       <ul className='app__navbar-links'>
