@@ -7,6 +7,9 @@ dependencies:
   next:
     specifier: 12.2.5
     version: 12.2.5(@babel/core@7.22.1)(react-dom@18.2.0)(react@18.2.0)(sass@1.54.5)
+  nvm:
+    specifier: ^0.0.4
+    version: 0.0.4
   react:
     specifier: 18.2.0
     version: 18.2.0
@@ -5832,6 +5835,12 @@ packages:
       console-control-strings: 1.1.0
       gauge: 3.0.2
       set-blocking: 2.0.0
+    dev: false
+
+  /nvm@0.0.4:
+    resolution: {integrity: sha512-jvmyELykYcdyd0VCGY0E8Aqe5MngEasVvlPvrcJHbwBMUbVqa72mPdQuPzyTcykEtEx7jDrMY0QA5MoV+8EhgA==}
+    deprecated: This is NOT the correct nvm. Visit https://nvm.sh and use the curl command to install it.
+    hasBin: true
     dev: false
 
   /object-assign@4.1.1:

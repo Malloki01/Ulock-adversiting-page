@@ -29,13 +29,17 @@ const Navbar = () => {
   return (
     <nav className={scolled ? 'app__navbar scrolled' : 'app__navbar'}>
 
-      <a href='#home' className='app__navbar-logo'>
-        <Image src="/huergocode_transparent.png"
-                      alt="profile"
-                      width={80}
-                      height={80}
-                />
-      </a>
+<a href='#home' className='app__navbar-logo'>
+  <div className="logo">
+    <Image
+      src="/huergocode_transparent.png"
+      alt="profile"
+      width={80}
+      height={80}
+    />
+  </div>
+</a>
+
 
       <ul className='app__navbar-links'>
 
