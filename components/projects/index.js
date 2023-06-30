@@ -4,36 +4,36 @@ import Image from 'next/image';
 
 const projects = [
   {
-    title: "LockersIQ",
+    title: "Light bulb machine learning ",
     desc: "Smart locker application created with Collective Intelligence Group.",
-    coverUrl: "/huergocode_transparent.png",
-    githubLink: "https://github.com/nixrajput/social-media-app-flutter",
-    demoLink: "https://github.com/nixrajput/social-media-app-flutter/releases",
-    tags: ["Next.js", "FastAPI", "Sockets", "PostgreSQL"],
+    coverUrl: "/machine.png",
+    githubLink: "https://github.com/Programacion315/Light_bulb_machine_learning",
+    demoLink: "https://github.com/Programacion315/Light_bulb_machine_learning",
+    tags: ["HTML", "CSS", "JS"],
   },
   {
-    title: "Payments 315",
-    desc: "An open-source RESTful API using Node.js, Express.js and MongoDB to integrate backend and frontend with ease.",
-    coverUrl: "/huergocode_transparent.png",
-    githubLink: "https://github.com/nixrajput/social-media-api-nodejs",
-    demoLink: "https://social-api.nixlab.co.in",
-    tags: ["Next.js", "PostgreSQL"],
+    title: "Burgers Don Chucuni",
+    desc: "Shop selling hamburgers",
+    coverUrl: "/chucuni.png",
+    githubLink: "https://github.com/Programacion315/Burgers_Don_Chucuni",
+    demoLink: "https://github.com/Programacion315/Burgers_Don_Chucuni",
+    tags: ["React"],
   },
   {
     title: "Virtual assistant Browser",
-    desc: "A video call app using Flutter, Dart, and Agora SDK that allows users to call each other face to face.",
-    coverUrl: "/huergocode_transparent.png",
-    githubLink: "https://github.com/nixrajput/video-calling-app-flutter",
-    demoLink: "https://github.com/nixrajput/video-calling-app-flutter/releases",
+    desc: "A great bowser will be dancing in the lower right, when it starts it will tell a joke.",
+    coverUrl: "/bowser.png",
+    githubLink: "https://github.com/Programacion315/Bowser_joke_teller",
+    demoLink: "https://github.com/Programacion315/Bowser_joke_teller",
     tags: ["Python"],
   },
   {
-    title: "Happy Birthday",
-    desc: "An e-commerce app using MERN stack, and Redux that allows users to buy and checkout products with ease.",
-    coverUrl: "/huergocode_transparent.png",
-    githubLink: "https://github.com/nixrajput/ecommerce-mern",
-    demoLink: "https://nixlab-shop.herokuapp.com",
-    tags: ["VBScript", "Windows"],
+    title: "Web scraping food information",
+    desc: "Extract the food information from the page https://www.tabladecalorias.net/",
+    coverUrl: "/food.png",
+    githubLink: "https://github.com/Programacion315/Web_scraping_food_information",
+    demoLink: "https://github.com/Programacion315/Web_scraping_food_information",
+    tags: ["Selenium", "Beautiful Soup "],
   }
 ];
 
@@ -78,7 +78,7 @@ const Projects = () => {
                   </div>
 
                   <a className="outlined-btn" href={project.demoLink} target="_blank" rel="noreferrer">
-                    Demo
+                    Repo
                   </a>
 
                 </div>
