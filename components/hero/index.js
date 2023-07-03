@@ -15,11 +15,14 @@ const Hero = () => {
         <a className="e">e</a>
         <span> </span>
         <a className="h">H</a>
-        <a className="u">u</a>
-        <a className="e">e</a>
-        <a className="r">r</a>
-        <a className="g">g</a>
-        <a className="o">o</a>
+        <span className="hide-on-mobile">
+          <a className="u">u</a>
+          <a className="e">e</a>
+          <a className="r">r</a>
+          <a className="g">g</a>
+          <a className="o">o</a>
+        </span>
+
       </div>
 
       <div className="sub-text">&quot;There are no limits to the imagination&quot;</div>
@@ -46,17 +49,14 @@ const Hero = () => {
       </div>
 
       <div className="fav__techs">
-        {FavTools.map((tool, index) => {
-          return (
-            <div className="fav__tech" key={index}>
-              <Image src={tool} alt="tool" width={1080} height={1080} />
-            </div>
-          );
-        })}
+        {FavTools.map((tool, index) => (
+          <div className="fav__tech" key={index}>
+            <Image src={tool} alt="tool" width={1080} height={1080} />
+          </div>
+        ))}
       </div>
     </div>
   );
 };
 
 export default AppWrap(MotionWrap(Hero, "home"), "home");
-

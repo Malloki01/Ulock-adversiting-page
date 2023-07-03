@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <a className="outlined-btn"
-            href='https://github.com/nixrajput' target="_blank" rel="noreferrer"
+            href='https://github.com/Programacion315' target="_blank" rel="noreferrer"
           >
             My GitHub
           </a>

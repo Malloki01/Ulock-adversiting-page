@@ -7,6 +7,9 @@
   height: 100%;
   flex-direction: column;
 
+
+
+
   padding: 2rem;
   transition: all 0.3s ease-in-out;
 
@@ -48,7 +51,11 @@
       color: red;
       transition: color 0.5s ease;
     }
-
+    @media (max-width: 767px) {
+      .hide-on-mobile {
+        display: none;
+      }
+    }
 
   }
 
@@ -125,6 +132,12 @@
   }
 
   @media screen and (max-width: 768px) {
+
+
+    // .app__hero {
+    //   margin-top: -200px !important; dont work!
+    // }
+
     .p-text {
       font-size: 1.2rem;
     }

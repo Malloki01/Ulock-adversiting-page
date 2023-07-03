@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Burgers Don Chucuni",
-    desc: "Shop selling hamburgers",
+    desc: "novelty burger shop with lots of animations, has a shopping cart and role for customer and admin",
     coverUrl: "/chucuni.png",
     githubLink: "https://github.com/Programacion315/Burgers_Don_Chucuni",
     demoLink: "https://github.com/Programacion315/Burgers_Don_Chucuni",

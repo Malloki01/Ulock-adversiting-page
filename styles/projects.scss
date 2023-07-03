@@ -77,8 +77,16 @@
         flex-direction: column;
         align-items: center;
 
+
+        .project__work__img{
+          width: 10%;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+
         .project__work__details {
-          margin-left: 0;
+          margin-left: 15px;
+          margin-right: 15px;
           margin-top: 1rem;
         }
       }
@@ -86,6 +94,9 @@
       &:last-child {
         margin-bottom: 0;
       }
+
+
+
     }
   }
 }
