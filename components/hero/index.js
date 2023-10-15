@@ -1,26 +1,27 @@
 import { AppWrap, MotionWrap } from "../wrapper";
 import Image from "next/image";
 
-const FavTools = ["/next.png", "/python.png", "/react.png", "/visual.png"];
+//const FavTools = ["/next.png", "/python.png", "/react.png", "/visual.png"];
 
 const Hero = () => {
   return (
     <div className="app__hero app__flex">
-      <div className="p-text">I am</div>
+       {/* 
+      <video className="video-bg" autoPlay muted loop>
+        <source src="/VideoLocker.mp4" type="video/mp4" />
+      </video> 
+      */}
+
       <div className="head-text">
-        <a className="j">j</a>
-        <a className="o">o</a>
-        <a className="r">r</a>
-        <a className="g">g</a>
-        <a className="e">e</a>
+        <a className="C">C</a>
+        <a className="A">a</a>
+        <a className="G">g</a>
+        <a className="E">e</a>
+        <a className="S">s</a>
         <span> </span>
-        <a className="h">H</a>
         <span className="hide-on-mobile">
-          <a className="u">u</a>
-          <a className="e">e</a>
-          <a className="r">r</a>
-          <a className="g">g</a>
-          <a className="o">o</a>
+          <a className="I">I</a>
+          <a className="Q">Q</a>
         </span>
 
       </div>
@@ -29,12 +30,11 @@ const Hero = () => {
 
       <div className="detail-text">
         <p>
-          I am a <span>Systems Engineer</span>. I love programming. The languages I currently use the most are{" "}
-          <span>Javascript</span> and <span>Python</span>.
+            Más que un Casillero, tu Espacio Privado e Inteligente
         </p>
         <br />
         <p>
-          I am currently working on developing applications with Next.js at{" "}
+          Un producto creado por {" "}
           <span className="company">
             <a
               href="https://thecollectiveintelligencegroup.com/"
@@ -47,14 +47,15 @@ const Hero = () => {
           </span>
         </p>
       </div>
-
-      <div className="fav__techs">
+      {/* <div className="fav__techs">
         {FavTools.map((tool, index) => (
           <div className="fav__tech" key={index}>
             <Image src={tool} alt="tool" width={1080} height={1080} />
           </div>
         ))}
-      </div>
+      </div> */}
+
+      
     </div>
   );
 };

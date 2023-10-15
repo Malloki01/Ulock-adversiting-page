@@ -9,6 +9,22 @@
     width: 100%;
     margin-top: 2rem;
     position: relative;
+    &__video {
+      position: relative;
+      overflow: hidden;
+      background-color: #000;
+  
+      video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+      }
+    }
 
     .app__experiences__item {
       margin-bottom: 2rem;
@@ -73,4 +89,30 @@
       }
     }
   }
+  .app__experiences {
+    .flex__row {
+      display: flex;
+      justify-content: space-between;
+  
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+  
+      & > div {
+        flex: 1;
+        max-width: 48%;
+  
+        @media screen and (max-width: 768px) {
+          max-width: 100%;
+        }
+      }
+    }
+  
+    &__list {
+      /* Estilos para la lista de experiencias */
+    }
+  
+    
+  }
+  
 }

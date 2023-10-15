@@ -8,7 +8,7 @@ const About = () => {
       <div className="flex__row">
 
         <div className="profile__img">
-          <Image src="/huergo.png"
+          <Image src="/CandadoQR2.png"
             alt="profile"
             width={1080}
             height={1080}
@@ -20,17 +20,16 @@ const About = () => {
         <div className="spacer" />
 
         <div className="details">
-          <h1 className="head-text">I am Jorge Huergo.</h1>
-          <p className="p-text"><span>•</span> Systems Engineer</p>
-          <p className="p-text"><span>•</span> I have worked on various projects using Next.js, React, and FastAPI. I am experienced in developing web applications and APIs using these technologies. </p>
-          <p className="p-text"><span>•</span> I have a deep appreciation for open-source software and strongly support the principles of the free software movement.</p>
-          <p className="p-text"><span>•</span> I enjoy creating images with AI.</p>
+          <h1 className="head-text">Conoce más sobre CagesIQ</h1>
+          <p className="p-text"><span>•</span> Hay una variedad de diseños disponibles de casilleros electrónicos</p>
+          <p className="p-text"><span>•</span> Permite un control de acceso desde un ordenador</p>
+          <p className="p-text"><span>•</span> Proporcionan un nivel adicional de seguridad en comparación con los sistemas de llave tradicionales</p>
 
-          <p className='p-text-head'>My Preferred Tools and Technologies are 👇</p>
+          <p className='p-text-head'>Al implementar el servicio de casilleros electrónicos permite 👇</p>
 
           <div className="preferred__skills">
             {
-              ["Next.js, React, Javascript", "Selenium, Python", "Node.js", "SQL, PostgreSQL"].map((item, index) => {
+              ["Mayor seguridad", "Mayor control", "Configuración Flexible", "Ahorro de tiempo y espacio"].map((item, index) => {
                 return (
                   <div key={index} className="profile__skill">
                     <span><BsFillCheckCircleFill /></span>
@@ -41,11 +40,6 @@ const About = () => {
             }
           </div>
 
-          <a className="outlined-btn"
-            href='https://github.com/Programacion315' target="_blank" rel="noreferrer"
-          >
-            My GitHub
-          </a>
 
         </div>
 
