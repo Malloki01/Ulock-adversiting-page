@@ -31,11 +31,11 @@ const Navbar = () => {
 
 <a href='#home' className='app__navbar-logo'>
   <div className="logo">
-    <Image
-      src="/huergocode_transparent.png"
+    <img
+      src="/Ulock_Logo_Final.svg"
       alt="profile"
-      width={80}
-      height={80}
+      width={200}
+      height={75}
     />
   </div>
 </a>
