@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="app">
       <Head>
-        <title>Jorge Huergo</title>
+        <title>Ulock</title>
         <meta name="description" content="Nikhil Rajput's portfolio developed using Next.js." />
         <meta name="keywords" content="system engineer, next js" />
         <link rel="icon" href="/huergo.ico" />

@@ -1,30 +1,46 @@
+.app__flex{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .FlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 65%;
+    background-color: #2f1d58;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+    margin: auto;
+}
+
+.FlexContainer div {
+    width: 200px;
+    height: 200px;
+    margin: 3px;
+    background-color: lightblue;
+}
+ }
+
+
 .app__skills {
   position: relative;
+  flex: 1;
   width: 100%;
   flex-direction: column;
 
   padding: 2rem;
+  transition: all 0.3s ease-in-out;
 
   .app__experiences {
     width: 100%;
     margin-top: 2rem;
     position: relative;
-    &__video {
-      position: relative;
-      overflow: hidden;
-      background-color: #000;
-  
-      video {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-      }
-    }
+
+    
 
     .app__experiences__item {
       margin-bottom: 2rem;
@@ -89,30 +105,6 @@
       }
     }
   }
-  .app__experiences {
-    .flex__row {
-      display: flex;
-      justify-content: space-between;
-  
-      @media screen and (max-width: 768px) {
-        flex-direction: column;
-      }
-  
-      & > div {
-        flex: 1;
-        max-width: 48%;
-  
-        @media screen and (max-width: 768px) {
-          max-width: 100%;
-        }
-      }
-    }
-  
-    &__list {
-      /* Estilos para la lista de experiencias */
-    }
-  
-    
-  }
-  
+
+
 }

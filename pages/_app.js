@@ -6,6 +6,7 @@ import "../styles/projects.scss";
 import "../styles/experiences.scss";
 import "../styles/footer.scss";
 
+
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;
 }
