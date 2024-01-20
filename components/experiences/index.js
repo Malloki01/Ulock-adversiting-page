@@ -31,7 +31,7 @@ const Experiences = () => {
               </div>
             )}
           >
-           <section class='FlexContainer'>
+           <section className='FlexContainer'>
             <div>
             <img src="https://source.unsplash.com/03r2PBffuCk" alt="Mueble de madera marrón con espejo"/>
             </div>
@@ -43,19 +43,19 @@ const Experiences = () => {
               </p>
             </div>
         </section>
-        <section class='FlexContainer'>
+        <section className='FlexContainer'>
             <div></div>
             <div></div>
         </section>
-        <section class='FlexContainer'>
+        <section className='FlexContainer'>
             <div></div>
             <div></div>
         </section>
-        <section class='FlexContainer'>
+        <section className='FlexContainer'>
             <div></div>
             <div></div>
         </section>
-        <section class='FlexContainer'>
+        <section className='FlexContainer'>
             <div></div>
             <div></div>
         </section>

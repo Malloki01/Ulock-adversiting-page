@@ -23,7 +23,8 @@ const Hero = () => {
                 alt="casillero"
                 width={500}
                 height={500}
-                />
+                /> 
+                <button>Contact</button>
               </div>
             </section>
           </div>
